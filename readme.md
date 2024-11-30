@@ -23,6 +23,11 @@ This project provides a FastAPI-based service to transcribe and summarize YouTub
     ```
 
 ## Usage
+1. Go to localhose:8000/docs for the FastAPI Swagger UI docs.
+2. Enter the YouTube video id and click the "Summarize" button.
+3. For a video with url "https://www.youtube.com/watch?v=RH7REzcVjMI&ab_channel=AliAbdaal", the video id is "RH7REzcVjMI".
+Note: Will add method to use video url directly.
+Note: There is no audio downloading and audio -> transcript conversion. The video transcript is fetched directly from the youtube-transcript-api. Will add technique for audio -> transcript conversion if directly not available.
 
 ### Running the Server
 
